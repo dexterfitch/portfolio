@@ -1,0 +1,20 @@
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Silkscreen:wght@400;700&display=swap');
+$cutive-mono: 'Cutive Mono', monospace;
+$silkscreen: 'Silkscreen', sans-serif;
+
+// Palette - https://coolors.co/172121-ee7674-5cffe7-8400e2-c5f700
+$dark-jungle-green: #172121;
+$light-coral: #ee7674;
+$turquoise-blue: #5cffe7;
+$french-violet: #8400e2;
+$electric-lime: #c5f700;
+
+// Base
+body {
+    background: $electric-lime;
+    background: linear-gradient(300deg, $french-violet 0%, $turquoise-blue 35%, $electric-lime 55%);
+    font: 24px $cutive-mono;
+    color: $dark-jungle-green;
+    height: 100vh;
+}
